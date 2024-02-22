@@ -431,4 +431,7 @@
         <item>2480</item>
         <item>134</item>
     </integer-array>
+
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
 </resources>
