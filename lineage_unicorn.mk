@@ -18,3 +18,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 2206122SC
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Miui Camera for unicorn
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)

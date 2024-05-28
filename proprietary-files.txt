@@ -211,6 +211,19 @@ vendor/lib64/vendor.qti.hardware.pal@1.0.so
 vendor/bin/batterysecret
 vendor/etc/init/hw/init.batterysecret.rc
 
+# Miuicamera
+vendor/lib64/libmiface.so
+vendor/lib64/libmi_dspp.so
+vendor/lib64/libloadalgo_stub.so
+vendor/lib64/libgrpc++_unsecure.so
+vendor/lib64/libdeccfg.so
+vendor/lib64/com.qti.feature2.ml.fillmore.so
+vendor/lib64/com.qti.feature2.mfsr.netrani.so
+vendor/lib64/com.qti.feature2.gs.fillmore.so
+vendor/lib/libmiface.so
+vendor/lib/libgrpc++_unsecure.so
+vendor/lib/libdeccfg.so
+
 # Camera
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/bin/hw/vendor.xiaomi.hardware.quickcamera@1.0-service
