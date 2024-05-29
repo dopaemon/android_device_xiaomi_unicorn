@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_unicorn.mk
+    $(LOCAL_DIR)/superior_unicorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_unicorn-user \
-    lineage_unicorn-userdebug \
-    lineage_unicorn-eng
+    superior_unicorn-user \
+    superior_unicorn-userdebug \
+    superior_unicorn-eng
