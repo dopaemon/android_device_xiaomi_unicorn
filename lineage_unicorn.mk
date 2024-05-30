@@ -19,5 +19,11 @@ PRODUCT_MODEL := 2206122SC
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="unicorn_cn-user 14 UKQ1.231003.002 V816.0.3.0.ULECNXM release-keys"
+
+BUILD_FINGERPRINT := Xiaomi/unicorn_cn/unicorn:14/UKQ1.231003.002/V816.0.3.0.ULECNXM:user/release-keys
+
+
 # Miui Camera for unicorn
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
