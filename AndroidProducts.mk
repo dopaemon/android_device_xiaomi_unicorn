@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_unicorn.mk
+    $(LOCAL_DIR)/voltage_unicorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_unicorn-user \
-    lineage_unicorn-userdebug \
-    lineage_unicorn-eng
+    voltage_unicorn-user \
+    voltage_unicorn-userdebug \
+    voltage_unicorn-eng
