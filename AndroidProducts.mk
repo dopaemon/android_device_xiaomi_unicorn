@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_unicorn.mk
+    $(LOCAL_DIR)/awaken_unicorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_unicorn-user \
-    lineage_unicorn-userdebug \
-    lineage_unicorn-eng
+    awaken_unicorn-user \
+    awaken_unicorn-userdebug \
+    awaken_unicorn-eng

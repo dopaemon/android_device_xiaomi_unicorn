@@ -7,11 +7,38 @@
 # Inherit from unicorn device
 $(call inherit-product, device/xiaomi/unicorn/device.mk)
 
-# Inherit from common lineage configuration
+# Inherit from common awaken configuration
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_unicorn
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Google Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
+# Google Assistant
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
+# Pixel Charger
+USE_PIXEL_CHARGER := true
+
+# UnOfficial
+AWAKEN_BUILD_TYPE := UNOFFICIAL
+
+# Face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Gapps
+WITH_GMS := true
+
+# Other
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_HAS_UDFPS := true
+TARGET_USE_PIXEL_FINGERPRINT := true
+
+PRODUCT_NAME := awaken_unicorn
 PRODUCT_DEVICE := unicorn
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
