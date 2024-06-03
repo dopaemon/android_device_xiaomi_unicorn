@@ -80,10 +80,10 @@ else
     wget -O vendor/xiaomi/unicorn/radio/vm-bootsys.img https://sourceforge.net/projects/android-unofficial/files/Android-14/unicorn/vendor/vm-bootsys.img
 fi
 
-if [ -e "vendor/xiaomi/miuicamera-unicorn/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk" ]; then
-    echo "vendor/xiaomi/miuicamera-unicorn/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk: done"
+if [ -e "vendor/xiaomi/miuicamera-mayfly/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk" ]; then
+    echo "vendor/xiaomi/miuicamera-mayfly/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk: done"
 else
-    wget -O vendor/xiaomi/miuicamera-unicorn/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk https://github.com/dopaemon/android_vendor_xiaomi_miuicamera-mayfly/releases/download/lineage-21/MiuiCamera.apk
+    wget -O vendor/xiaomi/miuicamera-mayfly/proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk https://github.com/dopaemon/android_vendor_xiaomi_miuicamera-mayfly/releases/download/lineage-21/MiuiCamera.apk
 fi
 
 # hardware/xiaomi
