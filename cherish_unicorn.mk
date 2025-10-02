@@ -7,10 +7,17 @@
 # Inherit from unicorn device
 $(call inherit-product, device/xiaomi/unicorn/device.mk)
 
-# Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common cherish configuration
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_unicorn
+# CherishOS
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+TARGET_HAS_UDFPS := true
+CHERISH_BUILD_TYPE := UNOFFICIAL
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.cherish.maintainer=KernelPanix
+
+PRODUCT_NAME := cherish_unicorn
 PRODUCT_DEVICE := unicorn
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
