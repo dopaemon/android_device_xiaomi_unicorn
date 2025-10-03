@@ -1,2 +1,9 @@
 # Xiaomi
 ro.product.mod_device=unicorn
+
+# InfinityX
+ro.product.marketname=Xiaomi 12S Pro
+ro.infinity.soc=Snapdragon 8 Plus Gen 1
+ro.infinity.battery=4600 mAh
+ro.infinity.display=1440 x 3200, 120 Hz
+ro.infinity.camera=50MP + 50MP + 50MP
