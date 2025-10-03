@@ -10,6 +10,14 @@ $(call inherit-product, device/xiaomi/unicorn/device.mk)
 # Inherit from common lineage configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# RisingOS
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_INCLUDE_GOOGLE_DIALER := true
+
 PRODUCT_NAME := lineage_unicorn
 PRODUCT_DEVICE := unicorn
 PRODUCT_MANUFACTURER := Xiaomi
