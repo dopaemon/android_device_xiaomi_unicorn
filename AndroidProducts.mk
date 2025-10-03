@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_unicorn.mk
+    $(LOCAL_DIR)/infinity_unicorn.mk
