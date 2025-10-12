@@ -11,6 +11,7 @@ $(call inherit-product, device/xiaomi/unicorn/device.mk)
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # CherishOS
+TARGET_DISABLE_EPPE := true
 WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
 TARGET_HAS_UDFPS := true
