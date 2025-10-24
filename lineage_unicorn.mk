@@ -11,6 +11,7 @@ $(call inherit-product, device/xiaomi/unicorn/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # RisingOS
+TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
 TARGET_CORE_GMS := true
