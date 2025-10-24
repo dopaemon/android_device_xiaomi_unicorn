@@ -11,6 +11,7 @@ $(call inherit-product, device/xiaomi/unicorn/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # DerpFest
+TARGET_DISABLE_EPPE := true
 DERPFEST_BUILD_TYPE := UNOFFICIAL
 DERPFEST_BUILD_VARIANT := Stable
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
