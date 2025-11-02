@@ -22,7 +22,7 @@ $(call inherit-product, device/xiaomi/miuicamera-cupid/device.mk)
 # RisingOS
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingChipset="Snapdragon 8 Plus Gen 1" \
-    RisingMaintainer="Dopaemon"
+    RisingMaintainer="KernelPanix"
 
 # Overlay
 PRODUCT_PACKAGES += \
