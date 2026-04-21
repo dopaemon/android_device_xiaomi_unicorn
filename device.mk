@@ -11,6 +11,9 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/unicorn/unicorn-vendor.mk)
 
+# Camera
+$(call inherit-product, device/xiaomi/miuicamera-cupid/device.mk)
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml \
@@ -27,6 +30,10 @@ PRODUCT_PACKAGES += \
     SettingsResUnicorn \
     SystemUIResUnicorn \
     WifiResUnicorn
+
+# Display
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 
 # Powershare
 PRODUCT_PACKAGES += \

@@ -13,6 +13,9 @@ include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 # Inherit from the proprietary version
 include vendor/xiaomi/unicorn/BoardConfigVendor.mk
 
+# Inherit from MiuiCamera
+include device/xiaomi/miuicamera-cupid/BoardConfig.mk
+
 DEVICE_PATH := device/xiaomi/unicorn
 
 # Audio
@@ -22,6 +25,7 @@ AUDIO_FEATURE_ENABLED_ULTRASOUND_PROXIMITY := true
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
 
 # Screen density
 TARGET_SCREEN_DENSITY := 560
