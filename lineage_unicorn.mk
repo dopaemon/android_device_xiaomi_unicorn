@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Select the 64-bit-only product configuration first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
+
 # Inherit from unicorn device
 $(call inherit-product, device/xiaomi/unicorn/device.mk)
 
